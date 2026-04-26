@@ -119,7 +119,7 @@ else
 fi
 separate
 
-echo -e "${BLUE}Searching for all mcpack files in /storage/emulated/0/Download/shaders, this may take a while...${RESET}\n\n${RED}WARNING${RESET}: Please use shaders updated for your Minecraft version to avoid issues in game!"
+echo -e "${BLUE}Searching for all mcpack files in /storage/emulated/0/Download/shaders, this may take a while...${RESET}\n\n${RED}WARNING${RESET}: Please use shaders that are for your OS ('merged' or 'android') and updated for your Minecraft version to avoid issues in game!"
 sleep 3
 
 # Select mcpack file with the same fast approach
