@@ -16,7 +16,7 @@ A user friendly bash script that injects renderdragon shaders directly into the 
 3. Download and install Termux from [GitHub](https://github.com/termux/termux-app/releases/latest) or [F-Droid](https://f-droid.org/en/packages/com.termux/). Do NOT use Termux from Play Store as it is known to cause issues.
 4. Paste this command in Termux and press ENTER to run the script:
 ```
-curl https://raw.githubusercontent.com/CallMeSoumya2063/mtbin2apk/main/mtbin2apk.sh | bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/CallMeSoumya2063/mtbin2apk/main/mtbin2apk.sh)"
 ```
 4. Read instructions on screen and follow (pressing ENTER accepts your inputs).
 
