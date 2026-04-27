@@ -1,6 +1,9 @@
 # mtbin2apk
 A user friendly interactive bash script that injects renderdragon shaders directly into the game. Inspired by [matject](https://github.com/faizul726/matject), imagined by [izvekhharuvn](https://www.curseforge.com/members/izvekhharuvn/projects) on discord. It uses [minedraco](https://github.com/CallMeSoumya2063/MineDraco) as a template (modified for this purpose) and [rsapksign](https://github.com/mcbegamerxx954/rsapksign) to sign apk.
 
+## Known issue
+Modified apk does not install due to an [issue](https://github.com/mcbegamerxx954/rsapksign/issues/1) with rsapksign. So, the script fails at the last step. I will fix the script once the issue with rsapksign is resolved, or after I find a feasible alternative approach for apk signing.
+
 ## Requirements
 1. An Android device.
 2. Termux from GitHub or F-Droid.
